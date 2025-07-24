@@ -1,0 +1,17 @@
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\ExchangeRates.Api.exe
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\publish\web.config
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\appsettings.Development.json
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\appsettings.json
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\publish\appsettings.Development.json
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\publish\appsettings.json
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\publish\ExchangeRates.Api.deps.json
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\publish\ExchangeRates.Api.runtimeconfig.json
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\publish\ExchangeRates.Api.staticwebassets.endpoints.json
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\ExchangeRates.Api.dll
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\ExchangeRates.Api.deps.json
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\ExchangeRates.Api.runtimeconfig.json
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\ExchangeRates.Api.pdb
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\Microsoft.OpenApi.dll
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Documents\exchange-rates-app\ExchangeRates.Api\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

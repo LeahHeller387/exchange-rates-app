@@ -1,0 +1,5 @@
+### Get supported currencies
+GET http://localhost:5227/api/ExchangeRates/currencies
+
+### Get exchange rates for USD
+GET http://localhost:5227/api/ExchangeRates/rates/USD
