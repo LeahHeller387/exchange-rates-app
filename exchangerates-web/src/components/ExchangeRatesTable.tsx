@@ -8,9 +8,10 @@ type Props = {
 
 const ExchangeRatesTable = ({ rates }: Props) => {
   const [order, setOrder] = useState<'asc' | 'desc'>('asc');
-  const [orderBy, setOrderBy] = useState<string>('rate');
+  type OrderByField = 'rate' | 'targetCurrency';
+  const [orderBy, setOrderBy] = useState<OrderByField>('rate');
 
-  const handleRequestSort = (property: string) => {
+const handleRequestSort = (property: OrderByField) => {
     const isAsc = orderBy === property && order === 'asc';
     setOrder(isAsc ? 'desc' : 'asc');
     setOrderBy(property);
@@ -55,7 +56,7 @@ const ExchangeRatesTable = ({ rates }: Props) => {
           </TableHead>
           <TableBody>
             {sortedRates.map((rate) => (
-              <TableRow key={rate.targetCurrency}>
+              <TableRow key={`${rate.baseCurrency}-${rate.targetCurrency}`}>
                 <TableCell>{rate.baseCurrency}</TableCell>
                 <TableCell>{rate.targetCurrency}</TableCell>
                 <TableCell>{rate.rate}</TableCell>
