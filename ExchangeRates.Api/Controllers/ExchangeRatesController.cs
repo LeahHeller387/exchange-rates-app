@@ -1,5 +1,7 @@
 using ExchangeRates.Api.Services;
 using Microsoft.AspNetCore.Mvc;
+using ExchangeRates.Api.Validation;
+
 
 namespace ExchangeRates.Api.Controllers;
 
@@ -24,6 +26,10 @@ public class ExchangeRatesController : ControllerBase
     [HttpGet("rates/{baseCurrency}")]
     public async Task<IActionResult> GetRates(string baseCurrency)
     {
+        if (!CurrencyValidator.IsValid(baseCurrency))
+            return BadRequest("Invalid or missing currency code.");
+
+
         try
         {
             var rates = await _exchangeRateService.GetExchangeRatesAsync(baseCurrency);
@@ -38,4 +44,5 @@ public class ExchangeRatesController : ControllerBase
             return StatusCode(500, "Failed to retrieve exchange rates.");
         }
     }
+
 }
