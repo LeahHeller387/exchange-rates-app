@@ -15,7 +15,7 @@ Make sure you have the following installed:
 
 ---
 
-## 🧾 Clone the Repository
+##  Clone the Repository
 
 Start by cloning the project:
 
